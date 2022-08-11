@@ -14,4 +14,6 @@ Ricky Young
 
 1. Created a html page using my first lab report as a template
 
-2. Added 
+2. Added headings, a paragraph (had to convert my list to a coherent one), a link to my github account, an image of my dog, a table, and the form.
+
+3. I created the img folder under ./static/
