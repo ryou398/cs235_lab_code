@@ -34,6 +34,20 @@ def show_factorial(input_val):
         input=input_val, 
         factorial=factorial)
 
-
+@app.route('/marks/<int:int_mark>')
+def show_marks(int_mark):
+    if int_mark < 50:
+        return f'Grade:{int_mark} - You have got a grade of: F'
+    elif int_mark < 60:
+        return f'Grade:{int_mark} - You have got a grade of: D'
+    elif int_mark < 70:
+        return f'Grade:{int_mark} - You have got a grade of: C'
+    elif int_mark < 80:
+        return f'Grade:{int_mark} - You have got a grade of: B'
+    elif int_mark < 90:
+        return f'Grade:{int_mark} - You have got a grade of: A'
+    else:
+        return f'Grade:{int_mark} - You have got a grade of: A+'
+    
 if __name__ == '__main__':
     app.run(debug=True, port=8000)

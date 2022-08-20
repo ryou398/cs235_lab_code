@@ -7,7 +7,7 @@ Date: 23/07/2022
 """
 
 import numpy as np
-
+from flask import Flask
 
 def compute_factorial(value: int):
     """Computes the factorial of a given input."""

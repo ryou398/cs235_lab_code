@@ -1,14 +1,30 @@
-h1 {
-    color:darkblue;
+body {
+    background-color: slateblue;
+}
+.Heading {
+    color:aquamarine;
+    margin-left: 300px;
+    border-right-width: 0px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.Lab {
+    color:coral;
+    margin-left: 300px;
+    border-right-width: 0px;
+    margin-right: 300px;
+}
+.Paragraph {
+    color:crimson;
+    margin-left: 300px;
+    border-right-width: 0px;
+    margin-right: 300px;
+}
+.Kobi {
+    margin-left: 300px;
+    border-right-width: 0px;
+    margin-right: 300px;
 }
 
-h2 {
-    color:aqua;
-}
-h3 {
-    color:black;
-}
-.mytext {
-    color:cornflowerblue;
-}
+
 
