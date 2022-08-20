@@ -22,7 +22,7 @@
     flask run
 ```
 
-    or
+or
 
 ```Terminal
     python -m flask
